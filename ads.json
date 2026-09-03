@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "updated": "2026-09-04",
+  "refresh_hours": 6,
+  "ads": [
+    {
+      "id": "screenshot-clean",
+      "enabled": true,
+      "weight": 1,
+      "platforms": ["ios", "web"],
+      "slots": ["lib", "find", "ipad-column", "landscape-banner", "web-leaderboard", "web-inline", "web-side"],
+      "from": null,
+      "until": null,
+      "kicker": "APP · SAME DEVELOPER",
+      "title": "Screenshot Clean",
+      "line": "finds every screenshot, copies its text, cleans up one swipe at a time",
+      "cta": "APP STORE ↗",
+      "url": "https://apps.apple.com/app/screenshot-clean/id6760674902",
+      "creative": { "narrow": null, "wide": null, "tall": null }
+    },
+    {
+      "id": "subten",
+      "enabled": true,
+      "weight": 1,
+      "platforms": ["ios", "web"],
+      "slots": ["lib", "find", "ipad-column", "landscape-banner", "web-leaderboard", "web-inline", "web-side"],
+      "from": null,
+      "until": null,
+      "kicker": "WEB · SAME DEVELOPER",
+      "title": "Subten",
+      "line": "food, training and recovery in one app, with an AI coach",
+      "cta": "SUBTEN-APP.EU ↗",
+      "url": "https://subten-app.eu/",
+      "creative": { "narrow": null, "wide": null, "tall": null }
+    },
+    {
+      "id": "order-windows",
+      "enabled": true,
+      "weight": 1,
+      "platforms": ["ios", "web"],
+      "slots": ["lib", "find", "ipad-column", "landscape-banner", "web-leaderboard", "web-inline", "web-side"],
+      "from": null,
+      "until": null,
+      "kicker": "MAC · SAME DEVELOPER",
+      "title": "Order Windows",
+      "line": "window manager for macOS: halves, corners, thirds, 17 shortcuts",
+      "cta": "SEE IT ↗",
+      "url": "https://agik66.github.io/order-windows-site/",
+      "creative": { "narrow": null, "wide": null, "tall": null }
+    }
+  ]
+}
