@@ -19,7 +19,9 @@
         "web-leaderboard",
         "web-inline",
         "web-side",
-        "web-find"
+        "web-find",
+        "mix",
+        "hist"
       ],
       "from": null,
       "until": null,
@@ -50,7 +52,9 @@
         "web-leaderboard",
         "web-inline",
         "web-side",
-        "web-find"
+        "web-find",
+        "mix",
+        "hist"
       ],
       "from": null,
       "until": null,
@@ -81,7 +85,9 @@
         "web-leaderboard",
         "web-inline",
         "web-side",
-        "web-find"
+        "web-find",
+        "mix",
+        "hist"
       ],
       "from": null,
       "until": null,

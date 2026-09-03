@@ -18,7 +18,9 @@ Zmena = upraviť `ads.json`, `python3 validate.py`, commit, push. Do 6 hodín
 |---|---|---|---|
 | `lib` | iOS LIB nad zoznamom | **narrow** | 640×120 px (zobrazí sa ~320×60 pt) |
 | `find` | iOS FIND za odpoveďou | narrow | 640×120 |
-| `landscape-banner` | iOS iPad landscape bez zoznamu, pod ovládaním | **wide** | 1456×180 (728×90 pt) |
+| `mix` | iOS MIX pod hop logom | narrow | 640×120 |
+| `hist` | iOS HIST pod logom | narrow | 640×120 |
+| `landscape-banner` | iOS landscape pod ovládaním: iPad 728×90 pt, iPhone 320×50 pt | **wide** | 1456×180 (iPad) · na iPhone sa vpasuje do 50 pt |
 | `ipad-column` | iOS iPad landscape, pravý stĺpec | **tall** | 600×1200 (300×600 pt) |
 | `web-leaderboard` | web nad prehrávačom | wide | 1456×180 |
 | `web-inline` | web LIB nad zoznamom | narrow | 640×120 |
