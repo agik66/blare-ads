@@ -23,6 +23,7 @@ Zmena = upraviť `ads.json`, `python3 validate.py`, commit, push. Do 6 hodín
 | `web-leaderboard` | web nad prehrávačom | wide | 1456×180 |
 | `web-inline` | web LIB nad zoznamom | narrow | 640×120 |
 | `web-side` | web pravý stĺpec (široké okno) | tall | 600×1200 |
+| `web-find` | web FIND za odpoveďou | narrow | 640×120 |
 
 Formát = tvar boxu. Každá reklama má `creative.narrow / wide / tall`:
 buď `null` (vykreslí sa **text**: kicker, title, line, cta — vždy v štýle
@@ -69,3 +70,11 @@ sa v jednej obrazovke neopakuje v dvoch slotoch, ak je z čoho vybrať.
   layout (box má pevný rozmer, obrázok sa doň vpasuje).
 - Súbor sa sťahuje bez akýchkoľvek identifikátorov — je to obyčajný GET,
   privacy odpovede appky sa nemenia.
+
+## Platené reklamy na webe (AdSense)
+
+V `ads.json` je blok `web_networks.adsense`: `client` (tvoje `ca-pub-…`),
+`slots` (slot → id reklamnej jednotky) a `house_share` (0–1: aký podiel
+načítaní stránky ukáže tvoj house baner namiesto platenej jednotky).
+Prázdny `client` = len house banery. Web načíta AdSense skript až keď je
+`client` vyplnený. iOS appka tento blok ignoruje (tam nie je žiadna sieť).
