@@ -2,7 +2,7 @@
 """Checks ads.json before you push it. Run: python3 validate.py"""
 import json, sys, datetime, urllib.parse
 
-SLOTS = {"lib","find","mix","hist","landscape-banner","ipad-column","web-leaderboard","web-inline","web-side","web-find"}
+SLOTS = {"lib","find","mix","hist","landscape-banner","ipad-column","web-leaderboard","web-inline","web-side","web-find", "web-interstitial"}
 FORMATS = {"narrow","wide","tall"}
 PLATFORMS = {"ios","web"}
 REQUIRED = ["id","enabled","weight","platforms","slots","kicker","title","line","cta","url","creative"]
