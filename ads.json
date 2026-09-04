@@ -21,7 +21,8 @@
         "web-side",
         "web-find",
         "mix",
-        "hist"
+        "hist",
+        "web-interstitial"
       ],
       "from": null,
       "until": null,
@@ -54,7 +55,8 @@
         "web-side",
         "web-find",
         "mix",
-        "hist"
+        "hist",
+        "web-interstitial"
       ],
       "from": null,
       "until": null,
@@ -87,7 +89,8 @@
         "web-side",
         "web-find",
         "mix",
-        "hist"
+        "hist",
+        "web-interstitial"
       ],
       "from": null,
       "until": null,
@@ -115,5 +118,10 @@
       },
       "house_share": 0.5
     }
+  },
+  "web_interstitial": {
+    "enabled": true,
+    "countdown": 5,
+    "every_minutes": 30
   }
 }

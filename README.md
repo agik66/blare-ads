@@ -80,3 +80,10 @@ V `ads.json` je blok `web_networks.adsense`: `client` (tvoje `ca-pub-…`),
 načítaní stránky ukáže tvoj house baner namiesto platenej jednotky).
 Prázdny `client` = len house banery. Web načíta AdSense skript až keď je
 `client` vyplnený. iOS appka tento blok ignoruje (tam nie je žiadna sieť).
+
+## Interstitial na webe (`web-interstitial`)
+
+Web nemá nákup „bez reklám“, preto sa pri príchode na stránku zobrazí jeden celostránkový house banner s odpočtom.
+- Slot: `web-interstitial` (formát `wide`, kreatíva `creative.wide.image`, inak textová verzia).
+- Nastavenie v koreňovom kľúči `web_interstitial`: `enabled` (true/false), `countdown` (sekundy do tlačidla CONTINUE, 0 = hneď), `every_minutes` (ako často sa vráti, meria sa v prehliadači návštevníka).
+- Ak žiadny banner nemá slot `web-interstitial`, použije sa banner zo slotu `web-leaderboard`. Bez vhodného bannera sa nič nezobrazí.
